@@ -95,7 +95,8 @@ pro-asixc1a-g5/
 │   │       ├── 02.2.3_webserver.md     # Configuración del servidor web
 │   │       ├── 02.2.4_elk.md           # Implementación del sistema de monitorización ELK
 │   │       ├── 02.2.5_ftp.md           # Servicio FTP para gestión de archivos
-│   │       └── 02.2.6_dns.md           # Configuración del servidor DNS
+│   │       ├── 02.2.6_dns.md           # Configuración del servidor DNS
+│   │       └── 02.2.7_backup.md        # Estrategia de backup y recuperación 
 │   └── 03_sostenibilidad/
 │       └── 03.1_sostenibilidad.md      # Análisis de sostenibilidad, ODS implicados y propuestas de mejora
 ├── scripts/                            # Scripts de automatización (instalación, testeo, monitorización, etc.)
