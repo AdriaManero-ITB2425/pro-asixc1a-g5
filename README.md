@@ -147,9 +147,4 @@ pro-asixc1a-g5/
 
 ## Video de muestra
 
-
-[Link al Video]
-
-📹 **Ver video explicativo**: [Descargar/Ver en Google Drive](https://drive.google.com/file/d/11djxGufpwlp2K-DMOiTdE_eu65c8qkwL/view?usp=sharing)
-
 [![Ver Video en Drive](https://img.shields.io/badge/GOOGLE_DRIVE-VER_VIDEO-red?logo=google-drive)](https://drive.google.com/file/d/11djxGufpwlp2K-DMOiTdE_eu65c8qkwL/view?usp=sharing)
