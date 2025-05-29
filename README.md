@@ -45,7 +45,7 @@ Concretamente, queremos contribuir activamente a los ODS 7 (Energía asequible y
 2. Configurar máquinas virtuales con servicios de streaming de audio y vídeo.
 3. Diseñar e implementar una base de datos de personal.
 4. Calcular la huella ecológica y proponer mejoras.
-5. 
+
 
 
 ## Escenario planteado
@@ -87,7 +87,7 @@ Por lo tanto, todas las decisiones tomadas en el diseño del CPD y la implementa
 ---
 
 
-### [01.1_propuesta_cpd.md](docs/01_cpd/01.1_propuesta_cpd.md)
+### [propuesta-cpd](docs/01_cpd/01.1_propuesta_cpd.md)
 
 
 ## Implementacion de Servicios
@@ -99,7 +99,7 @@ Por lo tanto, todas las decisiones tomadas en el diseño del CPD y la implementa
 #### [02.1_implementacion.md](docs/02_implementacion/02.1_implementacion.md)
 #### [02.2.1_streaming.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.1_streaming.md)
 #### [02.2.2_bbdd.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.2_bbdd.md)
-#### [02.2.3_webserver.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.3_webserver.md)
+#### [02.2.3_webserver.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.3_web.md)
 #### [02.2.4_elk.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.4_elk.md)
 #### [02.2.5_ftp.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.5_ftp.md)
 #### [02.2.6_msg.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.6_msg.md)
