@@ -96,14 +96,13 @@ Por lo tanto, todas las decisiones tomadas en el diseño del CPD y la implementa
 ---
 
 
-#### [02.1_implementacion.md](docs/02_implementacion/02.1_implementacion.md)
-#### [02.2.1_streaming.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.1_streaming.md)
-#### [02.2.2_bbdd.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.2_bbdd.md)
-#### [02.2.3_web.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.3_web.md)
-#### [02.2.4_elk.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.4_elk.md)
-#### [02.2.5_ftp.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.5_ftp.md)
-#### [02.2.6_msg.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.6_msg.md)
-#### [02.2.7_backup.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.7_backup.md)
+- **[Implementación del servicio de audio y video](/docs/02_implementacion/02.2_documentacion_tecnica/02.2.1_streaming.md)**
+- **[Implementación y configuración de la BBDD](/docs/02_implementacion/02.2_documentacion_tecnica/02.2.2_bbdd.md)**
+- **[Desplegamiento del entorno de desarrollo](/docs/02_implementacion/02.2_documentacion_tecnica/02.2.3_web.md)**
+- **[Instalación y configuración del stack de Monitorización](/docs/02_implementacion/02.2_documentacion_tecnica/02.2.4_elk.md)**
+- **[Implementación del servicio de FTP](/docs/02_implementacion/02.2_documentacion_tecnica/02.2.5_ftp.md)**
+- **[Implementación del servicio de mensajeria](/docs/02_implementacion/02.2_documentacion_tecnica/02.2.6_msg.md)**
+- **[Implementación del servicio de backup y recovery](/docs/02_implementacion/02.2_documentacion_tecnica/02.2.7_backup.md)**
 
 
 ## Sostenibilidad
@@ -122,26 +121,30 @@ Por lo tanto, todas las decisiones tomadas en el diseño del CPD y la implementa
 
 
 ```plaintext
-pro-asixc1a-g5/
-├── assets/                             # Recursos gráficos o multimedia para usar en la documentación
-├── diagramas/                          # Diagramas técnicos del CPD, red, servicios y sostenibilidad
-├── docs/
-│   ├── 01_cpd/
-│   │   └── 01.1_propuesta_cpd.md       # Propuesta inicial de arquitectura del CPD (estructura física, VMs, red)
-│   ├── 02_implementacion/
-│   │   ├── 02.1_implementacion.md      # Resumen global del proceso de implementación y configuración
-│   │   └── 02.2_documentacion_tecnica/
-│   │       ├── 02.2.1_streaming.md     # Configuración del servicio de streaming (audio/vídeo)
-│   │       ├── 02.2.2_bbdd.md          # Diseño y despliegue de la base de datos
-│   │       ├── 02.2.3_web.md           # Configuración del servidor web
-│   │       ├── 02.2.4_elk.md           # Implementación del sistema de monitorización ELK
-│   │       ├── 02.2.5_ftp.md           # Servicio FTP para gestión de archivos
-│   │       ├── 02.2.6_msg.md           # Instalación del servidor de mensajería
-│   │       └── 02.2.7_backup.md        # Estrategia de backup y recuperación
-│   └── 03_sostenibilidad/
-│       └── 03.1_sostenibilidad.md      # Análisis de sostenibilidad, ODS implicados y propuestas de mejora
-├── scripts/                            # Scripts de automatización (instalación, testeo, monitorización, etc.)
-└── README.md                           # Documentación principal del proyecto y guía general
+pro-asixc1a-g5/             # Raíz del repositorio del proyecto
+├── assets/                # Recursos estáticos (imágenes, datos, etc.)
+│   ├── 01_cpd/            # Activos relacionados con el Centro de Procesamiento de Datos
+│   ├── cap_ELK/           # Componentes y configuraciones para la pila ELK
+│   └── other/             # Otros recursos genéricos
+├── docs/                  # Carpeta principal de documentación
+│   ├── 01_cpd/            # Documentación de la fase de propuesta CPD
+│   │   └── 01.1_propuesta_cpd.md  # Detalla la propuesta de arquitectura y alcance del CPD
+│   ├── 02_implementacion/ # Documentación de la fase de implementación
+│   │   ├── 02.1_implementacion.md  # Visión general de los pasos y recursos para desplegar la solución
+│   │   └── 02.2_documentacion_tecnica/  # Guías técnicas de cada módulo implementado
+│   │       ├── 02.2.1_streaming.md  # Configuración y flujo de datos en tiempo real
+│   │       ├── 02.2.2_bbdd.md       # Esquema, conexiones y buenas prácticas de base de datos
+│   │       ├── 02.2.3_web.md        # Detalles del frontend y APIs web
+│   │       ├── 02.2.4_elk.md        # Integración con Elasticsearch, Logstash y Kibana
+│   │       ├── 02.2.5_ftp.md        # Procedimientos de transferencia de archivos por FTP
+│   │       ├── 02.2.6_msg.md        # Diseño y gestión de colas/mensajería
+│   │       └── 02.2.7_backup.md     # Estrategia y scripts de copia de seguridad
+│   ├── 03_sostenibilidad/ # Consideraciones de rendimiento y mantenimiento
+│   │   └── 03.1_sostenibilidad.md  # Métricas y prácticas para garantizar la escalabilidad
+│   └── 04_IPO/            # Plan de puesta en producción e incorporación
+│       └── 04.1_IPO.md    # Pasos finales para el lanzamiento y traspaso a operaciones
+└── README.md              # Resumen del proyecto
+
 ```
 
 
