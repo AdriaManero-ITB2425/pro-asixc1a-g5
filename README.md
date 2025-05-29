@@ -133,7 +133,7 @@ pro-asixc1a-g5/
 │   │   └── 02.2_documentacion_tecnica/
 │   │       ├── 02.2.1_streaming.md     # Configuración del servicio de streaming (audio/vídeo)
 │   │       ├── 02.2.2_bbdd.md          # Diseño y despliegue de la base de datos
-│   │       ├── 02.2.3_webserver.md     # Configuración del servidor web
+│   │       ├── 02.2.3_web.md           # Configuración del servidor web
 │   │       ├── 02.2.4_elk.md           # Implementación del sistema de monitorización ELK
 │   │       ├── 02.2.5_ftp.md           # Servicio FTP para gestión de archivos
 │   │       ├── 02.2.6_msg.md           # Instalación del servidor de mensajería
