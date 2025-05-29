@@ -23,8 +23,12 @@
 ---
 
 
-nnovate Tech és una empresa dedicada a la creació i distribució de contingut digital.
-Com a part del nostre compromís amb la innovació tecnològica i la sostenibilitat ens dirigim a vostès amb l'objectiu de dissenyar i implantar una arquitectura de Centre de Processament de Dades (CPD) al núvol adaptada a les nostres necessitats actuals i futures. Busquem una solució integral que integri servei web de l’empresa i de transmissió d'àudio i vídeo, que sigui eficaç en termes de rendiment, seguretat, i eficiència energètica, alineant-se amb els Objectius de Desenvolupament Sostenible (ODS) de l'Agenda 2030. InnovateTech es compromet amb el desenvolupament responsable i sostenible, tal com es reflecteix en la nostra aposta per solucions que compleixin amb els Objectius de Desenvolupament Sostenible (ODS) de l'Agenda 2030. Concretament, volem contribuir activament als ODS 7 (Energia asequible i no contaminant), ODS 9 (Indústria, innovació i infraestructura), ODS 12 (Producció i consum responsables), ODS 13 (Acció pel clima) i ODS 16 (Pau, justícia i institucions sòlides).
+Innovate Tech es una empresa dedicada a la creación y distribución de contenido digital.
+Como parte de nuestro compromiso con la innovación tecnológica y la sostenibilidad, nos dirigimos a ustedes con el objetivo de diseñar e implantar una arquitectura de Centro de Procesamiento de Datos (CPD) en la nube adaptada a nuestras necesidades actuales y futuras.
+Buscamos una solución integral que integre el servicio web de la empresa y la transmisión de audio y vídeo, que sea eficaz en términos de rendimiento, seguridad y eficiencia energética, alineándose con los Objetivos de Desarrollo Sostenible (ODS) de la Agenda 2030.
+
+Innovate Tech se compromete con el desarrollo responsable y sostenible, tal como se refleja en nuestra apuesta por soluciones que cumplan con los Objetivos de Desarrollo Sostenible (ODS) de la Agenda 2030.
+Concretamente, queremos contribuir activamente a los ODS 7 (Energía asequible y no contaminante), ODS 9 (Industria, innovación e infraestructura), ODS 12 (Producción y consumo responsables), ODS 13 (Acción por el clima) y ODS 16 (Paz, justicia e instituciones sólidas).
 
 
 ## Objetivos
@@ -33,16 +37,15 @@ Com a part del nostre compromís amb la innovació tecnològica i la sostenibili
 ---
 
 
-- Dissenyar una arquitectura de CPD al núvol que integri serveis web i de transmissió
-d'àudio i vídeo.
-- Garantir la seguretat, eficiència energètica i sostenibilitat de la infraestructura.
-- Implementar solucions que compleixin amb els ODS de l'Agenda 2030.
-- Proporcionar una solució escalable i adaptable a les necessitats futures de l'empresa.
-1. Diseñar CPD sostenible (ODS 7, 9, 12, 13, 16)
+- Diseñar una arquitectura de CPD en la nube que integre servicios web y de transmisión de audio y vídeo.
+- Garantizar la seguridad, eficiencia energética y sostenibilidad de la infraestructura.
+- Implementar soluciones que cumplan con los ODS de la Agenda 2030.
+- Proporcionar una solución escalable y adaptable a las necesidades futuras de la empresa.
+1. Diseñar un CPD sostenible (ODS 7, 9, 12, 13, 16)
 2. Configurar máquinas virtuales con servicios de streaming de audio y vídeo.
-3. Diseñar e implementar base de datos de personal.
-4. Calcular huella ecológica y proponer mejoras.
-5. Documentar en Markdown y presentar demo.
+3. Diseñar e implementar una base de datos de personal.
+4. Calcular la huella ecológica y proponer mejoras.
+5. 
 
 
 ## Escenario planteado
@@ -51,14 +54,15 @@ d'àudio i vídeo.
 ---
 
 
-Innovate Tech és una PYME ubcada a Barcelona. Degut al recent creixement de la demanda dels seus serveis de streaming d'àudio i vídeo, han decidit invertir en el seu propio CPD per no dependre de companyies externes i poder gestionar de forma més eficient els seus recursos. Abans de realitzar la inversió, havien d'estimar a quants clients volen donar abast i quins recursos nessiten per fer-ho.
+Innovate Tech es una pyme ubicada en Barcelona. Debido al reciente crecimiento de la demanda de sus servicios de streaming de audio y vídeo, han decidido invertir en su propio CPD para no depender de compañías externas y poder gestionar de forma más eficiente sus recursos.
 
+Antes de realizar la inversión, debían estimar a cuántos clientes quieren dar servicio y qué recursos necesitan para hacerlo.
 
-Despres de fer calculs, han arribat a la seguent conclusió:
-       - Tenen unna mitjana de 20 clients recurrents al mes.
-       - Cada client realitza un event amb un rang de 500 a 2000 espectadors.
-       - Encara que tingui 20 events al mes, no tots son a la vegada, pero hem de conciderar escenaris de maxima concurrencia:
+Después de realizar los cálculos, han llegado a la siguiente conclusión:
 
+- Tienen una media de 20 clientes recurrentes al mes.
+- Cada cliente realiza un evento con un rango de entre 500 y 2000 espectadores.
+- Aunque haya 20 eventos al mes, no todos se realizan al mismo tiempo, pero hay que considerar escenarios de máxima concurrencia.
 
 | Escenari             | Supuesto                                         | Oyentes simultáneos estimados |
 |----------------------|--------------------------------------------------|-------------------------------|
@@ -67,11 +71,13 @@ Despres de fer calculs, han arribat a la seguent conclusió:
 | Pico maximo realista | 4 eventos a la vez, 2000 espectadores por evento | 8000                          |
 
 
-En base aquestes dades, hem dissnyat el CPD tenint en ment el pico maximo realista, i hem considerat que el CPD ha de ser escalable per poder adaptar-se a les necessitats futures de l'empresa. El CPD ha de ser capaç de gestionar la càrrega de treball dels 8000 espectadors simultanis, i ha de tenir en compte la seguretat, eficiència energètica i sostenibilitat de la infraestructura. A més, s'ha de garantir la disponibilitat i rendiment dels serveis web i de transmissió d'àudio i vídeo.
+En base a estos datos, hemos diseñado el CPD teniendo en cuenta el pico máximo realista, y hemos considerado que el CPD debe ser escalable para poder adaptarse a las necesidades futuras de la empresa.
 
+El CPD debe ser capaz de gestionar la carga de trabajo de hasta 8000 espectadores simultáneos, y debe contemplar la seguridad, la eficiencia energética y la sostenibilidad de la infraestructura.
 
-Per tant, totes les decisions preses en el disseny del CPD i la Implementacio del serveis s'han pres tenint en compte aquests factors.
+Además, se debe garantizar la disponibilidad y el rendimiento de los servicios web y de transmisión de audio y vídeo.
 
+Por lo tanto, todas las decisiones tomadas en el diseño del CPD y la implementación de los servicios se han realizado teniendo en cuenta estos factores.
 
 
 
