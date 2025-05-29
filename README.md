@@ -150,7 +150,6 @@ pro-asixc1a-g5/
 
 [Link al Video]
 
-<video width="640" height="480" controls>
-  <source src="https://drive.google.com/uc?export=view&id=11djxGufpwlp2K-DMOiTdE_eu65c8qkwL" type="video/mp4">
-  Tu navegador no soporta el elemento de video.
-</video>
+📹 **Ver video explicativo**: [Descargar/Ver en Google Drive](https://drive.google.com/file/d/11djxGufpwlp2K-DMOiTdE_eu65c8qkwL/view?usp=sharing)
+
+[![Ver Video en Drive](https://img.shields.io/badge/GOOGLE_DRIVE-VER_VIDEO-red?logo=google-drive)](https://drive.google.com/file/d/11djxGufpwlp2K-DMOiTdE_eu65c8qkwL/view?usp=sharing)
