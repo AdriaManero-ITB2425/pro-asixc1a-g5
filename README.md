@@ -142,5 +142,5 @@ pro-asixc1a-g5/
 ## Video de muestra
 
 
-[LInk al Video]
+[Link al Video]
 
