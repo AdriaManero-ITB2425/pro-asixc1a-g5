@@ -81,7 +81,7 @@ Por lo tanto, todas las decisiones tomadas en el diseño del CPD y la implementa
 
 
 
-## 01.Propuesta CPD
+## Propuesta CPD
 
 
 ---
