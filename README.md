@@ -73,7 +73,7 @@ Per tant, totes les decisions preses en el disseny del CPD i la Implementacio de
 #### [02.2.3_webserver.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.3_webserver.md)
 #### [02.2.4_elk.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.4_elk.md)
 #### [02.2.5_ftp.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.5_ftp.md)
-#### [02.2.6_dns.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.6_dns.md)
+#### [02.2.6_dns.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.6_msg.md)
 #### [02.2.7_backup.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.7_backup.md)
 
 ## Sostenibilidad
