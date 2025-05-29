@@ -96,7 +96,7 @@ Per tant, totes les decisions preses en el disseny del CPD i la Implementacio de
 #### [02.2.3_webserver.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.3_webserver.md)
 #### [02.2.4_elk.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.4_elk.md)
 #### [02.2.5_ftp.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.5_ftp.md)
-#### [02.2.6_dns.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.6_msg.md)
+#### [02.2.6_msg.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.6_msg.md)
 #### [02.2.7_backup.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.7_backup.md)
 
 
@@ -130,7 +130,7 @@ pro-asixc1a-g5/
 │   │       ├── 02.2.3_webserver.md     # Configuración del servidor web
 │   │       ├── 02.2.4_elk.md           # Implementación del sistema de monitorización ELK
 │   │       ├── 02.2.5_ftp.md           # Servicio FTP para gestión de archivos
-│   │       ├── 02.2.6_msg.md           # Configuración del servidor DNS
+│   │       ├── 02.2.6_msg.md           # Instalación del servidor de mensajería
 │   │       └── 02.2.7_backup.md        # Estrategia de backup y recuperación
 │   └── 03_sostenibilidad/
 │       └── 03.1_sostenibilidad.md      # Análisis de sostenibilidad, ODS implicados y propuestas de mejora
