@@ -7,28 +7,28 @@
 ---
 
 
-* [Descripcion del proyecto](#descripcion-del-proyecto)
+* [Descripción del proyecto](#descripcion-del-proyecto)
 * [Objetivos](#objetivos)
 * [Escenario planteado](#escenario-planteado)
 * [Propuesta CPD](#propuesta-cpd)
-* [Implementacion de Servicios](#implementacion-de-servicios)
+* [Implementación de Servicios](#implementacion-de-servicios)
 * [Sostenibilidad](#sostenibilidad)
 * [Estructura del repositorio](#estructura-del-repositorio)
 * [Video de muestra](#video-de-muestra)
 
 
-## Descripcion del proyecto
+## Descripción del proyecto
 
 
 ---
 
 
 Innovate Tech es una empresa dedicada a la creación y distribución de contenido digital.
-Como parte de nuestro compromiso con la innovación tecnológica y la sostenibilidad, nos dirigimos a ustedes con el objetivo de diseñar e implantar una arquitectura de Centro de Procesamiento de Datos (CPD) en la nube adaptada a nuestras necesidades actuales y futuras.
-Buscamos una solución integral que integre el servicio web de la empresa y la transmisión de audio y vídeo, que sea eficaz en términos de rendimiento, seguridad y eficiencia energética, alineándose con los Objetivos de Desarrollo Sostenible (ODS) de la Agenda 2030.
+Como parte de nuestro compromiso con la innovación tecnológica y la sostenibilidad, nos dirigimos a ustedes con el objetivo de diseñar e implementar una arquitectura de Centro de Procesamiento de Datos (CPD) en la nube adaptada a nuestras necesidades actuales y futuras.
+Buscamos una solución integral que integre el servicio web de la empresa y la transmisión de audio y vídeo, que sea eficiente en términos de rendimiento, seguridad y eficiencia energética, alineándose con los Objetivos de Desarrollo Sostenible (ODS) de la Agenda 2030.
 
 Innovate Tech se compromete con el desarrollo responsable y sostenible, tal como se refleja en nuestra apuesta por soluciones que cumplan con los Objetivos de Desarrollo Sostenible (ODS) de la Agenda 2030.
-Concretamente, queremos contribuir activamente a los ODS 7 (Energía asequible y no contaminante), ODS 9 (Industria, innovación e infraestructura), ODS 12 (Producción y consumo responsables), ODS 13 (Acción por el clima) y ODS 16 (Paz, justicia e instituciones sólidas).
+En concreto, queremos contribuir activamente a los ODS 7 (Energía asequible y no contaminante), ODS 9 (Industria, innovación e infraestructura), ODS 12 (Producción y consumo responsables), ODS 13 (Acción por el clima) y ODS 16 (Paz, justicia e instituciones sólidas).
 
 
 ## Objetivos
@@ -68,7 +68,7 @@ Después de realizar los cálculos, han llegado a la siguiente conclusión:
 |----------------------|--------------------------------------------------|-------------------------------|
 | Promedio Bajo        | 2 eventos a la vez, 500 espectadores por evento  | 1000                          |
 | Promedio medio       | 3 eventos a la vez, 1000 espectadores por evento | 3000                          |
-| Pico maximo realista | 4 eventos a la vez, 2000 espectadores por evento | 8000                          |
+| Pico máximo realista | 4 eventos a la vez, 2000 espectadores por evento | 8000                          |
 
 
 En base a estos datos, hemos diseñado el CPD teniendo en cuenta el pico máximo realista, y hemos considerado que el CPD debe ser escalable para poder adaptarse a las necesidades futuras de la empresa.
@@ -99,7 +99,7 @@ Por lo tanto, todas las decisiones tomadas en el diseño del CPD y la implementa
 #### [02.1_implementacion.md](docs/02_implementacion/02.1_implementacion.md)
 #### [02.2.1_streaming.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.1_streaming.md)
 #### [02.2.2_bbdd.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.2_bbdd.md)
-#### [02.2.3_webserver.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.3_web.md)
+#### [02.2.3_web.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.3_web.md)
 #### [02.2.4_elk.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.4_elk.md)
 #### [02.2.5_ftp.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.5_ftp.md)
 #### [02.2.6_msg.md](docs/02_implementacion/02.2_documentacion_tecnica/02.2.6_msg.md)
